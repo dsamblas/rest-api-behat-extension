@@ -37,7 +37,6 @@ class Extension implements ExtensionInterface
                         ->arrayNode('client')
                         ->addDefaultsIfNotSet()
                         ->children()
-
                             ->arrayNode('config')
                             ->addDefaultsIfNotSet()
                             ->children()
